@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px  25px black;
+    background:lightslategray
+}
+.navbar-brand{
+        font-size: 30px;
+        font-weight: 900;
+        color:aqua !important;
+}
+#navbarSupportedContent a{
+     color: aliceblue;
+     border-bottom: 2px solid transparent;
+     
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid aqua;
+}
+#navbarSupportedContent button{
+    border-radius: 6px;
+    background-color:rgb(11, 79, 216) ;
+    border: none;
+    width: 100px;
+    height:30px;
+}
+#navbarSupportedContent button:hover{
+    color: chartreuse;
+    font-size: medium;
+}
+
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    
+}
+#home{
+    background:url("healthy-bowl-homemade-vegetarian-salad-variation-generated-by-ai.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+    margin-left: 500px;
+    margin-bottom:500px;
+    align-items: center !important;
+    font-size:80px;
+    color: rgb(95, 228, 13);
+    letter-spacing: 3px;
+    text-shadow:0px 1px 2px whitesmoke,
+                0px 1px 2px whitesmoke,
+                0px 1px 2px whitesmoke,
+                0px 1px 2px whitesmoke,
+                0px 1px 2px whitesmoke;
+}
+
+    
+#home .btn .get{
+    color: blue;
+    background-color: chartreuse;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    
+
+    
+}
+#home .btn .get:hover{
+    background:linear-gradient(yellow,orange)
+        
+}
+
+/**product*/
+#product{
+    background-color: rgb(13, 234, 201);
+
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 300px;
+    height:300px;
+    background:transparent !important;
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(19, 18, 18, 0.3),
+                inset 4px 4px 10px rgb(16, 15, 15);
+    border-radius: 10px;
+    align-items:center;
+    overflow: hidden;
+    justify-content: center;
+    margin: 20px 16px;
+}
+.card:hover{
+    box-shadow:inset 5px 10px 10px rgb(189, 177, 177),
+                inset -4px -4px 10px rgb(229, 236, 234) ;
+transition: 2s;
+}
+
+
+#contact img{
+        height: 300px;
+        width: 500px;
+}
+#contact button{
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: chartreuse;
+}
+#contact button:hover{
+    background-color: coral;
+}
+*#contact{
+    background-color: aqua;
+}
+
