@@ -33,7 +33,7 @@
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/build-yours.git
+git clone https://github.com/LokeshS1411/Build_Yours.git
 cd build-yours
 ```
 
